@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Red Rose", cursive;
+}
+body {
+  background-color: #847de0;
+  background-image: url("assets/bg.png");
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-position: fixed;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+/* ------------------------------ */
+/* ---------- NAVBAR ------------ */
+/* ------------------------------ */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px;
+}
+
+.logo {
+  width: 130px;
+}
+
+.list {
+  display: flex;
+  list-style: none;
+  width: 40vw;
+  justify-content: space-around;
+}
+
+.list li {
+  color: #edc126;
+  font-weight: 400;
+}
+
+.button-small {
+  color: #dfe7f0;
+  border: none;
+  background: #ef5354;
+  padding: 10px 35px;
+  font-size: medium;
+}
+
+/* ------------------------------ */
+/* ---------- HERO ------------ */
+/* ------------------------------ */
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 70vh;
+}
+
+.hero-heading {
+  font-family: Dela Gothic One, Arial;
+  margin-top: 20px;
+  color: #edc126;
+  font-weight: 700;
+  font-size: 60px;
+  word-spacing: 20px;
+  text-align: center;
+  width: 50vw;
+}
+
+.button-large {
+  color: #dfe7f0;
+  border: none;
+  background: #ef5354;
+  padding: 15px 45px;
+  font-size: medium;
+  margin-top: 50px;
+}
+
+.bottom img {
+  width: 150px;
+  position: absolute;
+  left: 83%;
+  bottom: 7%;
+}
